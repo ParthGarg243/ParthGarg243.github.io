@@ -39,6 +39,8 @@ nav {
 }
 .avatar img {
   width: 251px;
+  height: 251px;
+  border-radius: 50%;
 }
 .about {
   text-align: center;
