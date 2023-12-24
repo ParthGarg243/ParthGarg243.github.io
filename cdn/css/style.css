@@ -131,6 +131,7 @@ nav {
 }
 .projects {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 40px 0;
 }
@@ -250,6 +251,7 @@ footer p {
   margin: 0 auto;
   text-align: center;
   box-shadow: var(--shadow);
+  max-width: 400px;
   transition: transform 0.2s linear;
 }
 
@@ -277,4 +279,8 @@ footer p {
 
 .project .link--icon {
   margin-left: 0.5em;
+}
+
+ul {
+  list-style: none;
 }
