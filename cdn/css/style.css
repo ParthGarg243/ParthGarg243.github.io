@@ -18,12 +18,13 @@ a {
 }
 header {
   background-color: #222;
-  /* position: fixed; */
+  position: fixed;
+  width: 100%;
 }
 nav {
   display: flex;
   justify-content: space-between;
-  width: 1100px;
+  width: 100%;
   margin: 0 auto;
 }
 .logo {
@@ -72,6 +73,7 @@ nav {
 }
 .about {
   text-align: center;
+  padding-top: 150px;
 }
 .about-text {
   width: 652px;
@@ -149,13 +151,13 @@ nav {
   -webkit-text-fill-color: transparent;
   text-align: center;
   font-size: 35px;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 .projects {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 40px 0;
+  margin: 20px 0;
 }
 .project-item {
   background: #2a2a2a;
