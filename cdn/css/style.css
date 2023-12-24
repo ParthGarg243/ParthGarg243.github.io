@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Poppins", sans-serif;
   background-color: #161513;
@@ -15,6 +18,7 @@ a {
 }
 header {
   background-color: #222;
+  position: fixed;
 }
 nav {
   display: flex;
@@ -36,7 +40,25 @@ nav {
   padding: 30px 20px;
 }
 .navbar a {
-  color: #fff;
+  position: relative;
+  color: #ffffff
+}
+.navbar a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+}
+.navbar a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
 }
 .container {
   width: 1100px;
