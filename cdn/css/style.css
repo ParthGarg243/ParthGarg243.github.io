@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600');
 
+/* make it responsive below 795px */
+
 * {
   margin: 0;
   padding: 0;
@@ -62,7 +64,7 @@ nav {
   transform: scaleX(1);
 }
 .container {
-  width: 1100px;
+  width: 100%;
   margin: 0 auto;
   padding: 80px 20px;
 }
@@ -76,7 +78,7 @@ nav {
   padding-top: 150px;
 }
 .about-text {
-  width: 652px;
+  width: 100%;
   margin: 30px auto;
 }
 .about-text h1 {
