@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600');
-
-/* make it responsive below 795px */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600');
 
 * {
   margin: 0;
@@ -30,7 +28,7 @@ nav {
   margin: 0 auto;
 }
 .logo {
-  font-family: 'Titillium Web';
+  font-family: 'Poppins';
   font-size: x-large;
   padding: 30px 20px;
   line-height: 1;
@@ -135,7 +133,17 @@ nav {
   margin: 50px auto;
   justify-content: space-between;
 }
+.second-experience-with-lang {
+  display: flex;
+  width: 400px;
+  margin: 50px auto;
+  justify-content: space-between;
+}
 .experience-with-lang img {
+  width: 42px;
+  cursor: pointer;
+}
+.second-experience-with-lang img {
   width: 42px;
   cursor: pointer;
 }
@@ -309,4 +317,10 @@ footer p {
 
 ul {
   list-style: none;
+}
+
+@media (max-width:800px) {
+  .navbar {
+    display: none;
+  }
 }
