@@ -5,28 +5,34 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: #161513;
   color: #c5c5c5;
 }
+
 a {
   text-decoration: none;
 }
+
 header {
   background-color: #222;
   position: fixed;
   width: 100%;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin: 0 auto;
 }
+
 .logo {
   font-family: 'Poppins';
   font-size: x-large;
@@ -34,16 +40,20 @@ nav {
   line-height: 1;
   color: #fff;
 }
+
 .navbar {
   display: flex;
 }
+
 .navbar div {
   padding: 30px 20px;
 }
+
 .navbar a {
   position: relative;
   color: #ffffff
 }
+
 .navbar a::before {
   content: '';
   position: absolute;
@@ -57,34 +67,41 @@ nav {
   transform: scaleX(0);
   transition: transform .3s ease-in-out;
 }
+
 .navbar a:hover::before {
   transform-origin: left;
   transform: scaleX(1);
 }
+
 .container {
   width: 100%;
   margin: 0 auto;
   padding: 80px 20px;
 }
+
 .avatar img {
   width: 251px;
   height: 251px;
   border-radius: 50%;
 }
+
 .about {
   text-align: center;
   padding-top: 150px;
 }
+
 .about-text {
   width: 100%;
   margin: 30px auto;
 }
+
 .about-text h1 {
   font-size: 55px;
   line-height: 1;
   color: #fff;
   padding-bottom: 50px;
 }
+
 .about-text h1 > span {
   background: var(
     --Primary-Gradient,
@@ -94,9 +111,11 @@ nav {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .about-btn {
   margin-top: 30px;
 }
+
 .btn-primary {
   width: 300px;
   height: 64px;
@@ -111,6 +130,7 @@ nav {
   font-size: 22px;
   margin-right: 20px;
 }
+
 .btn-secondary {
   width: 195px;
   height: 64px;
@@ -120,6 +140,7 @@ nav {
   font-size: 22px;
   color: #fff;
 }
+
 .experience-with {
   text-align: center;
 }
@@ -127,30 +148,36 @@ nav {
 .experience-with h2 {
   font-size: 20px;
 }
+
 .experience-with-lang {
   display: flex;
   width: 500px;
   margin: 50px auto;
   justify-content: space-between;
 }
+
 .second-experience-with-lang {
   display: flex;
   width: 400px;
   margin: 50px auto;
   justify-content: space-between;
 }
+
 .experience-with-lang img {
   width: 42px;
   cursor: pointer;
 }
+
 .second-experience-with-lang img {
   width: 42px;
   cursor: pointer;
 }
+
 .primary-heading {
   text-align: center;
   font-size: 35px;
 }
+
 .heading-project {
   background: var(
     --Orange-Gradient,
@@ -163,24 +190,29 @@ nav {
   font-size: 35px;
   margin-top: 10px;
 }
+
 .projects {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 20px 0;
 }
+
 .project-item {
   background: #2a2a2a;
   margin: 20px;
   border-radius: 18px 18px 0 0;
 }
+
 .project-item img {
   width: 100%;
   border-radius: 18px 18px 0 0;
 }
+
 .project-title {
   padding: 15px;
 }
+
 .project-title h3 {
   color: #fff;
 }
@@ -194,40 +226,49 @@ nav {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .experience-item {
   padding: 30px 0;
 }
+
 .experience-title-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
 }
+
 .experience-title-container .date {
   margin-left: auto;
 }
+
 .experience-title {
   color: #fff;
   font-size: 22px;
   font-weight: bold;
   margin-left: 10px;
 }
+
 footer {
   background-color: #191919;
 }
+
 footer h2 {
   color: #fff;
   font-size: 24px;
   margin-bottom: 20px;
 }
+
 footer p {
   font-size: 15px;
 }
+
 .email-container {
   display: flex;
   align-items: center;
   margin-top: 40px;
 }
+
 .email-container img {
   margin-right: 10px;
 }
@@ -236,9 +277,11 @@ footer p {
   display: flex;
   margin-top: 40px;
 }
+
 .social-links img {
   margin-right: 20px;
 }
+
 .example_d {
   color: #ffffff !important;
   text-transform: uppercase;
@@ -248,12 +291,14 @@ footer p {
   display: inline-block;
   transition: all 0.3s ease 0s;
 }
+
 .example_d:hover {
   color: #808080 !important;
   border-radius: 50px;
   border-color: #808080 !important;
   transition: all 0.3s ease 0s;
 }
+
 .shadow img {
     transition: .5s ease;
 }
