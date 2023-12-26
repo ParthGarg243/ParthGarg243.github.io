@@ -123,24 +123,14 @@ nav {
 
 .experience-with-lang {
   display: flex;
-  width: 500px;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 600px;
   margin: 50px auto;
-  justify-content: space-between;
-}
-
-.second-experience-with-lang {
-  display: flex;
-  width: 400px;
-  margin: 50px auto;
-  justify-content: space-between;
+  gap: 75px;
 }
 
 .experience-with-lang img {
-  width: 42px;
-  cursor: pointer;
-}
-
-.second-experience-with-lang img {
   width: 42px;
   cursor: pointer;
 }
@@ -290,11 +280,11 @@ footer p {
 
 .projects__grid {
   padding-top: 100px;
-  max-width: 1100px;
+  max-width: 100%;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
-  grid-gap: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .project {
@@ -302,7 +292,7 @@ footer p {
   margin: 0 auto;
   text-align: center;
   box-shadow: var(--shadow);
-  max-width: 400px;
+  max-width: 350px;
   transition: transform 0.2s linear;
 }
 
@@ -339,5 +329,18 @@ ul {
 @media (max-width:800px) {
   .navbar {
     display: none;
+  }
+
+  .avatar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  .about-text h1 {
+    font-size: 46px;
+    line-height: 1;
+    color: #fff;
+    padding-bottom: 50px;
   }
 }
