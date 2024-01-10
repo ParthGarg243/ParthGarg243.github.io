@@ -280,7 +280,7 @@ footer p {
 
 .projects__grid {
   padding-top: 100px;
-  max-width: 100%;
+  max-width: 80%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -342,5 +342,14 @@ ul {
     line-height: 1;
     color: #fff;
     padding-bottom: 50px;
+  }
+
+  .projects__grid {
+    padding-top: 100px;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
