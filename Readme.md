@@ -1,3 +1,3 @@
 # Portfolio Website
 
-Check it out [here](https://parthgarg243.github.io/)
+Check out my portfolio website [here](https://parthgarg243.github.io/)
