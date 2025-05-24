@@ -4,19 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="myDir/css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Parth Garg</title>
+    <link rel="icon" type="image/png" href="myDir/assets/favicon.png" />
   </head>
+
   <body>
+    
     <header>
       <nav>
-        <div class="logo">parth garg</div>
+        <div class="logo">parth.</div>
         <div class="navbar">
           <div>
-            <a href="https://parthgarg243.github.io/">Home</a>
+            <a href="#">Home</a>
+          </div>
+          <div>
+            <a href="#skills">Skills</a>
           </div>
           <div>
             <a href="#projects">Projects</a>
@@ -28,186 +32,205 @@
       </nav>
     </header>
 
-    <section class="container about">
-      <div class="avatar">
-        <img src="myDir/assets/myAvatar.png" alt="avatar" />
-      </div>
-      <div class="about-text">
-        <h1>Hi, I am Parth Garg<br /> and<br /><span>I code :)</span></h1>
-        <div class="button_cont" align="center">
-          <!-- <a class="resume-button" href="https://drive.google.com/file/d/16Y1B0ukK9OO6cswQOE4GFVhlzXr0QXtN/view?usp=sharing" target="_blank" rel="nofollow noopener">Download Resume</a> -->
-          <a class="resume-button" href="https://parthgarg243.github.io/" target="_blank" rel="nofollow noopener">Download Resume</a>
+    <section id="intro" class="s-intro target-section">
+        <div class="row intro-content">
+            <div class="column large-9 mob-full intro-text">
+                <h3>Hi! I'm Parth Garg</h3>
+                <h1>
+                    Engineer and<br>
+                    Designer <br>
+                    Based In Delhi.
+                </h1>
+            </div>
+
+            <div class="intro-grid"></div>
+            <div class="intro-pic"></div>
+        </div>
+    </section>
+
+    <section id="skills">
+      <div class="developer_skills" unique-script-id="w-w-dm-id">
+        <div class="responsive-container-block bg">
+          <p class="text-blk title">
+            My Skills
+          </p>
+          <div class="responsive-container-block content">
+            <div class="responsive-container-block card">
+              <div class="responsive-container-block img" id="dev-img">
+              </div>
+              <p class="text-blk desc">
+                Development
+              </p>
+              <p class="text-blk info">
+                I build full-stack experiences with Python, Java, HTML/CSS, and MySQL delivering end-to-end solutions
+                along with Arduino-powered hacks and sharp problem-solving through competitive programming.
+              </p>
+            </div>
+            <div class="responsive-container-block card">
+              <div class="responsive-container-block img" id="ml-img">
+              </div>
+              <p class="text-blk desc">
+                Machine Learning and LLMs
+              </p>
+              <p class="text-blk info">
+                I explore the power of transformers, scikit-learn and PyTorch to shape intelligent systems.
+                My curiosity drives me into the depths of advanced machine learning models and large language models.
+              </p>
+            </div>
+            <div class="responsive-container-block card">
+              <div class="responsive-container-block img" id="des-img">
+              </div>
+              <p class="text-blk desc">
+                Product Design
+              </p>
+              <p class="text-blk info">
+                I craft intuitive UI/UX in Figma blending user empathy with clean design systems and interactive prototypes.
+                I design everything from detailed illustrations in Adobe Creative Suite to 3D prototypes in Autodesk Fusion.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="container experience-with">
-      <h2 style="font-size: 35px;">SKILLS</h2>
-      <div class="experience-with-lang">
-        <div><img src="myDir/assets/python.png" alt="python" /></div>
-        <div><img src="myDir/assets/c.png" alt="c" /></div>
-        <div><img src="myDir/assets/java.png" alt="java" /></div>
-        <div><img src="myDir/assets/html5.png" alt="html" /></div>
-        <div><img src="myDir/assets/css3.png" alt="css" /></div>
-        <div><img src="myDir/assets/github-skills.svg" alt="github" /></div>
-        <div><img src="myDir/assets/arduino.png" alt="arduino" /></div>
-        <div><img src="myDir/assets/figma.png" alt="figma" /></div>
-        <div><img src="myDir/assets/illustrator.png" alt="illustrator" /></div>
-        <div id="projects"><img src="myDir/assets/photoshop.png" alt="photoshop" /></div>
-      </div>
-    </section>
+    <div class="center-container">
+      <a href="https://drive.google.com/file/d/1plFFm9APBHA3h536JISIYaUu2YaC45io/view?usp=sharing">
+        <button class="button">Download Resume</button>
+      </a>
+    </div>
 
-    <h2 class="primary-heading heading-project" id="projects">PROJECTS</h2>
-    <section class="section projects">
-      <div class="projects__grid">
-        <div class="project">
-          <h3>CryptoSim</h3>
-          <p class="project__description">
-            CryptoSim is a Python Discord bot that stimulates cryptocurrency trading using real-time 
-            data.
-          </p>
-          <ul class="project__stack">
-            <li class="project__stack-item">Python</li>
-            <li class="project__stack-item">Replit</li>
-          </ul>
-          <div class="shadow">
-            <a href="https://replit.com/@ParthGarg243/CryptoSim">
-              <img src="myDir/assets/replit.svg" alt="Crypto Sim" />
-            </a>
+    <section id="projects" class="projects-section">
+      <h2 class="projects-title">Projects</h2>
+      <div class="projects-grid">
+        
+        <div class="project-card">
+          <div class="project-image" style="background-image: url('myDir/assets/virtually.png');">
+            <div class="project-hover">
+              <h3>VirtuAlly</h3>
+              <p>An assistive mobile app for early detection of virtual autism in toddlers using LLMs and CNN based behavioral analysis. 
+                Empowering early intervention through AI driven insights into screen induced autism patterns in young children.</p>
+              <a href="https://github.com/ParthGarg243/VirtuAlly" target="_blank" class="project-link" title="View Project">
+                <i class="fa fa-external-link"></i>
+              </a>
+            </div>
           </div>
         </div>
 
-        <div class="project">
-          <h3>Online Pharmacy Website</h3>
-          <p class="project__description">
-            The online pharmacy website is a full-stack platform developed with Django, providing a secure and user-friendly shopping experience.
-          </p>
-          <ul class="project__stack">
-            <li class="project__stack-item">HTML/CSS</li>
-            <li class="project__stack-item">Python</li>
-            <li class="project__stack-item">MySQL</li>
-          </ul>
-          <div class="shadow">
-            <a href="https://github.com/ParthGarg243/Online-Pharmacy-Website">
-              <img src="myDir/assets/github.svg" alt="Online Pharmacy Website" style="width: 28px; height: 28px;"/>
-            </a>
+        <div class="project-card">
+          <div class="project-image" style="background-image: url('myDir/assets/pharmacy.png');">
+            <div class="project-hover">
+              <h3>Online Pharmacy Website</h3>
+              <p>A full-stack online pharmacy website with a Django backend incorporating robust data management practices in MySQL
+                with a responsive and user-centric frontend using HTML and CSS delivering a seamless and intuitive shopping
+                experience for users.</p>
+              <a href="https://github.com/ParthGarg243/Online-Pharmacy-Website" target="_blank" class="project-link">
+                <i class="fa fa-external-link"></i>
+              </a>
+            </div>
           </div>
         </div>
 
-        <div class="project">
-          <h3>Airwave</h3>
-          <p class="project__description">
-            AirWave is a gesture-based smart home system designed to enhance accessibility for users with disabilities and the elderly.
-          </p>
-          <ul class="project__stack">
-            <li class="project__stack-item">Python</li>
-            <li class="project__stack-item">Arduino</li>
-          </ul>
-          <div class="shadow">
-            <a href="https://github.com/ParthGarg243/Airwave">
-              <img src="myDir/assets/github.svg" alt="Airwave" style="width: 28px; height: 28px;"/>
-            </a>
+        <div class="project-card">
+          <div class="project-image" style="background-image: url('myDir/assets/stickhero.png');">
+            <div class="project-hover">
+              <h3>Supernova Saga</h3>
+              <p> A Java-based replica of the popular game Stick Hero using JavaFX incorporating sophisticated graphics,
+                showcasing proficiency in OOP principles. UML diagrams and design patterns were utilized to structure classes 
+                and interfaces along with serialization for enhanced data management.</p>
+              <a href="https://github.com/ParthGarg243/Supernova-Saga" target="_blank" class="project-link">
+                <i class="fa fa-external-link"></i>
+              </a>
+            </div>
           </div>
         </div>
 
-        <div class="project">
-          <h3>Drone Airbag System</h3>
-          <p class="project__description">
-            An airbag system attachment for drones, developed by our team as part of our submission for the Anveshan 3.0 Hackathon held at IIIT Delhi.
-          </p>
-          <ul class="project__stack">
-            <li class="project__stack-item">Arduino</li>
-          </ul>
-          <div class="shadow">
-            <a href="https://github.com/ParthGarg243/Team-Drowne">
-              <img src="myDir/assets/github.svg" alt="Drone Airbag System" style="width: 28px; height: 28px;"/>
-            </a>
-          </div>
-        </div> 
-
-        <div class="project">
-          <h3>Memory Management System</h3>
-          <p class="project__description">
-            Memory management system implemented in C allowing you to allocate and manage memory 
-            efficiently by keeping track of available memory spaces and optimizing memory usage.
-          </p>
-          <ul class="project__stack">
-            <li class="project__stack-item">C</li>
-            <li class="project__stack-item">Git</li>
-          </ul>
-          <div class="shadow">
-            <a href="https://github.com/ParthGarg243/Memory-Management-System">
-              <img src="myDir/assets/github.svg" alt="Memory Management System" style="width: 28px; height: 28px;"/>
-            </a>
+        <div class="project-card">
+          <div class="project-image" style="background-image: url('myDir/assets/airwave.png');">
+            <div class="project-hover">
+              <h3>Airwave</h3>
+              <p> An innovative gesture-based smart home system aimed at enhancing accessibility for users with disabilities
+                and elderly individuals. Engineered a prototype incorporating a hand gesture recognition model integrated
+                 with an Arduino circuit demonstrated through a sophisticated miniature room model.</p>
+              <a href="https://github.com/ParthGarg243/airwave" target="_blank" class="project-link">
+                <i class="fa fa-external-link"></i>
+              </a>
+            </div>
           </div>
         </div>
 
-        <div class="project">
-          <h3>Supernova Saga</h3>
-          <p class="project__description">
-            Supernova Saga is a Java-based clone of the game Stick Hero with enhanced features
-            utilizing JavaFX.
-          </p>
-          <ul class="project__stack">
-            <li class="project__stack-item">Java</li>
-            <li class="project__stack-item">JavaFX</li>
-          </ul>
-          <div class="shadow">
-            <a href="https://github.com/ParthGarg243/Supernova-Saga">
-              <img src="myDir/assets/github.svg" alt="Supernova Saga" style="width: 28px; height: 28px;"/>
-            </a>
+        <div class="project-card">
+          <div class="project-image" style="background-image: url('myDir/assets/cryptosim.png');">
+            <div class="project-hover">
+              <h3>CryptoSim</h3>
+              <p>CryptoSim, a Python-based Discord bot that simulates cryptocurrency trading using real-time data and API calls.
+                Integrated Python libraries and the Replit database for data processing, enabling users to test and refine virtual
+                trading strategies in a realistic environment.</p>
+              <a href="https://replit.com/@ParthGarg243/CryptoSim" target="_blank" class="project-link">
+                <i class="fa fa-external-link"></i>
+              </a>
+            </div>
           </div>
         </div>
 
-        <div class="project">
-          <h3>EldAid</h3>
-          <p class="project__description">
-            Figma prototype designed to connect lonely seniors, fostering peer connections, and
-            offering intuitive health support aiming to enhance the well-being of elderly individuals
-            through thoughtful design.
-          </p>
-          <ul class="project__stack">
-            <li class="project__stack-item">Figma</li>
-          </ul>
-          <div class="shadow">
-            <a href="https://www.figma.com/proto/CSovaTrdCApp1sGthwEK9C/EldAid-(Final)?node-id=318-18&starting-point-node-id=318%3A18&mode=design&t=Utf7GaMXWU4ow8XL-1">
-              <img src="myDir/assets/redirect.svg" alt="Eld Aid" style="width: 28px; height: 28px;"/>
-            </a>
-          </div>
-        </div>
       </div>
     </section>
 
     <footer>
-      <div class="container">
-        <h2 id="contact">Contact</h2>
+      <div class="container" id="contact">
+        <h2 id="contact">Contact Me</h2>
+        <p>I'm a football enthusiast and an avid gamer. When I'm not coding or designing, 
+          you'll often find me strumming my guitar, building scale models, playing football or watching a tv show.
+          If you're looking to collaborate on an exciting product idea or bring a concept to life, 
+          feel free to <a href="mailto:parthgarg243@gmail.com" class="email-link">email me</a> or connect with me on the platforms below for a quick chat!</p>
         <div class="email-container">
-          <div><img src="myDir/assets/email-icon.svg" alt="email" /></div>
+          <div><img src="myDir/assets/email.svg" alt="email" /></div>
           <div>parthgarg243@gmail.com</div>
         </div>
-        <div class="social-links">
-          <div class="shadow">
-            <a href="https://github.com/ParthGarg243">
-              <img src="myDir/assets/github.svg" alt="github" />
-            </a>
-          </div>
-          <div class="shadow">
-            <a href="https://www.linkedin.com/in/parth-garg-417052219/">
-              <img src="myDir/assets/linkedin.svg" alt="linkedin" />
-            </a>
-          </div>
-          <div class="shadow">
-            <a href="https://www.behance.net/parthgarg243">
-              <img src="myDir/assets/behance.svg" alt="behance" />
-            </a>
-          </div>
-          <div class="shadow">
-            <a href="https://www.instagram.com/parth.garg243/">
-              <img src="myDir/assets/instagram.svg" alt="instagram" />
-            </a>
-          </div>
+        <div class="location-container">
+          <div><img src="myDir/assets/location.svg" alt="location" /></div>
+          <div>New Delhi, India</div>
         </div>
       </div>
+
+      <ul>
+        <li>
+          <a class="github" href="https://github.com/ParthGarg243">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a class="behance" href="https://www.behance.net/parthgarg243">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <i class="fa fa-behance" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a class="linkedin" href="https://www.linkedin.com/in/parth-garg-417052219/">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a class="instagram" href="https://www.instagram.com/parth.garg243/">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
     </footer>
+
   </body>
 </html>
